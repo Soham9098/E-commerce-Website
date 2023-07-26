@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Happy Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ 
+        
+ <div class="container">
+     <div class="navbar">
+         <div class="logo">
+            <a href="index.html"> <img src="images/happystore.logo.webp" alt="logo" width="200px" height="60px"></a>
+         </div>
+         <nav>
+             <ul id="menuitems">
+                 <li>
+                    <a href="index.html">Home</a> 
+                 </li>
+                 <li>
+                    <a href="products.html">Products</a> 
+                 </li>
+                 <li>
+                    <a href="index.html">About</a> 
+                 </li>
+                 <li>
+                    <a href="account.html">Account</a> 
+                 </li>
+             </ul>
+         </nav>
+         <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+         <img src="images/menu.png" class="menu-icon"
+         onclick="toggle()">
+     </div>
+     
+ </div>
+
+ <div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+               <img src="images/image1.png">
+            </div>
+            <div class="col-2">
+               <div class="from-container">
+                <div class="form-btn">
+                    <span onclick="login()">Login</span>
+                    <span onclick="register()">Register</span>
+                    <hr id="Indicator">
+                </div>
+                <form id="LoginForm">
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="password">
+                    <button type="submit" class="btn">Login</button>
+                    <a href="">Forgot password</a>
+                </form>
+                <form id="RegForm">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="email">
+                    <input type="password" placeholder="password">
+                    <button type="submit" class="btn">Register</button>
+                   
+                </form>
+               </div>
+            </div>
+
+        </div>
+    </div>
+ </div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android Mobile Phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="images/happystore.logo.webp" height="50px" width="50px" >
+                <!-- <p>Our purpose is to susstainably make the pleasure and benefits pf sports accessible to the many</p> -->
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <p>This Ecommerce Website is Created By Soham Waghmare</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
